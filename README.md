@@ -1,6 +1,6 @@
-# puzzles-
+# puzzles
 generalized formularization for puzzles 
-Problem:
+Problem 1:
 100 people standing in a circle in an order 1 to 100. No. 1 has a sword. He kills the next person (i.e. No. 2) and gives the sword to the next (i.e. No. 3). All people do the same until only 1 survives. Which number survives at the last? 
 Solution: 
 The solution is pure logic based and I found this in some internet but I improvised it and made the formula for all the general cases. So, lets start with the logic I found on internet. My way of approach towards the problem is different I analyze and I understand the missing parts, find solution and improvise for the general case. Same I have done here.
