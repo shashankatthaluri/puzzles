@@ -4,7 +4,7 @@ generalized formularization for puzzles
 
 
 
-Problem 1: !00 people in a circle 
+Problem 1: 100 people in a circle with a sword puzzle  
 
 100 people standing in a circle in an order 1 to 100. No. 1 has a sword. He kills the next person (i.e. No. 2) and gives the sword to the next (i.e. No. 3). All people do the same until only 1 survives. Which number survives at the last? 
 
@@ -28,7 +28,8 @@ I even tried different possibilities with prime numbers and many other options i
 
 
 
-Problem 2: Monkeys and doors 
+Problem 2: Monkeys with keys of doors 
+
 There are 100 doors, all closed. In a nearby cage are 100 monkeys. The first monkey is let out, and runs along the doors opening every one. The second monkey is then let out, and runs along the doors closing the 2nd, 4th, 6th,… — all the even-numbered doors. The third monkey is let out. He attends only to the 3rd, 6th, 9th,… doors (every third door, in other words), closing any that is open and opening any that is closed, and so on. After all 100 monkeys have done their work in this way, what state are the doors in after the last pass? Answer with the number of open doors. Answer is a integer. Just put the number without any decimal places if its an integer. If the answer is Infinity, output Infinity.
 
 Solution: The solution is pretty simple. Consider a number between the range. Let's say in our case it is 100 doors and 100 monkeys, So pick a number between 1-100. I considered number 56 where we find all the divisors of 56. Why divisors, lets understand if we take the divisors of 48 it is 1&48, 2&24, 3&16, 4&12, 6&8. Monkeys will visit all the divisor doors of 56 where on pass 1 they open the door and on 2nd they close, on 3th they open again and on 4th they close, 6th they open and 8th they close, 12th open, 16 they close, 24th they open and finally 48th its close which gives a conclusion that consider any number and you find at last it comes under the initial state, but in consider of any perfect square number say 16, the divisor are 1&16, 2&8, 4&4, here the 4 repeats and in similar cases every perfect square have a number repeated in divisor as they called perfect square numbers. Now on pass 1 they open, on 2nd they close, 4 they open, 8th they close but in 16 at end they open which is opposite of initial state. This shows the perfect squares doors will be in the opposite position of initial state and others are in initial state always. So the number of perfect squares in range of 1 to 100 is 10. So the answer is 10 and to get the number of perfect squares in any range here is my code.
@@ -38,7 +39,8 @@ Solution: The solution is pretty simple. Consider a number between the range. Le
 
 
 
-Problem3: 100 cows and milk distribution among 10 equally 
+Problem3: 100 cows and milk distribution among 10 equally
+
 A milkman has 100 cows number from 1 to 100. Every cow gives milk according to their numbers i.e i'th cow gives i litre milk. Milkman has 10 sons and he wants to divide his cows among his 10 sons so that every son should get an equal amount of milk, the task is to help him to know about the division of these cows among the sons. 
 
 Solution: The solution is pure logic based and I found this in some internet but I improvised it and made the formula for all the general cases. So, lets start with the logic I found on internet (in this case it is geeksforgeeks.org). My way of approach towards the problem is different I analyze and I understand the missing parts, find solution and improvise for the general case. Same I have done here.
