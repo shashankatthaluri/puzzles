@@ -39,7 +39,7 @@ Solution: The solution is pretty simple. Consider a number between the range. Le
 
 
 
-Problem3: 100 cows and milk distribution among 10 equally
+Problem 3: 100 cows and milk distribution among 10 equally
 
 A milkman has 100 cows number from 1 to 100. Every cow gives milk according to their numbers i.e i'th cow gives i litre milk. Milkman has 10 sons and he wants to divide his cows among his 10 sons so that every son should get an equal amount of milk, the task is to help him to know about the division of these cows among the sons. 
 
