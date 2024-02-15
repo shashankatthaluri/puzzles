@@ -42,4 +42,4 @@ Feel free to use the provided formula in your own applications. The repository a
 
 If you find any mistakes or have suggestions for improvement, please don't hesitate to contribute. Your feedback is highly appreciated!
 
-Happy coding! 🚀✨
+**Happy coding! 🚀✨**
