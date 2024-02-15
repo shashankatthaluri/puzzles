@@ -9,35 +9,44 @@ In this classic puzzle, each monkey has a specific task regarding the doors, and
 
 ## The Challenge 🚀
 
-There are 100 doors, initially all closed. Each monkey has a unique task:
+There are 100 doors and 100 monkeys, initially all doors are closed. Each monkey has a unique task:
 
-- Monkey 1 opens every door.
-- Monkey 2 closes the even-numbered doors.
-- Monkey 3 toggles the doors at every third position.
+- 🐒 Monkey 1 opens every door as every door initially closed
+- 🐒 Monkey 2 attends the even-numbered doors say 2,4,6,8,..... and closes them as they all are open by Monkey 1
+- 🐒 Monkey 3 attends the doors at every third position say 3,6,9,.... and if the door is open it closes, if not it opens. 
 - And so on...
 
 After all 100 monkeys have completed their tasks, we want to find out how many doors are left open.
 
-## Note: I request everyone to pause and try solving the problem for a minute. Don't think they are silly problems, they have been asked in FAANG company interviews. 
+## STOP 🛑 
+I request you to pause and try solving the problem for a minute. Don't think they are silly problems, they have been asked in FAANG company interviews. 
 
-## The Solution 🎯
+## The Generalized Solution 📈
 
 The solution to this puzzle involves understanding the pattern and behavior of the doors based on their divisors. A key insight is that the doors touched by monkeys will open and close in a predictable manner.
 
 Solution Strategy:
-- Choose a number within the given range (e.g., 56).
-- Find all divisors of the chosen number.
-- Observe the opening and closing pattern based on the divisors.
+- Choose a number within the given range (eg. 48).  
+- Find all divisors of the chosen number.  
+- Observe the opening and closing pattern based on the divisors. 
 - Determine the state of each door after the last pass.
 
-## Example:
+## Generalized Example 🌟
 
-For the range of 1 to 100:
+For now I took 48 monkeys and 48 doors as my example, 
 
-- The number 56 has divisors 1&56, 2&28, 4&14, 7&8.
+- The number 48 has divisors (1,48), (2,24), (3,16), (4,12), (6,8) Which makes a list of (1,2,3,4,6,8,12,16,24,48)
+- Why divisors ? Observe the pattern, In eg. 48, 1 attends the door and opens, now 2 attends and closes, 3 opens, 4 closes, 6 opens, 8 closes, 12 opens, 16 closes, 24 opens, 48 closes at last it comes under initial state where the door was closed before 1 attends. 
 - Monkeys will open and close doors based on this pattern.
-- After the last pass, the doors will return to their initial state.
-- However, for perfect square numbers (e.g., 16), the pattern is different. They end up in the opposite state of the initial state.
+- After the last monkey pass, the doors will return to their initial state.
+
+## Catch in solution 🎣
+
+- However, for perfect square numbers (e.g., 16), the pattern is different. Did you observe that?
+- They end up in the opposite state of the initial state.
+
+## Result 🎯
+- For the 100 monkey 100 doors the solution is 10. As 10 is perfect square of 100. So at the end 10 doors will be left open. 
 
 ## Usage 🚀
 
