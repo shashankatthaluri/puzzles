@@ -4,7 +4,7 @@
 
 ## Introduction 🎮
 
-Have you ever wondered which person survives in the classic circle game scenario, where 100 people stand in a circle, and one person with a sword initiates the game by killing the next person and passing on the sword? Look no further! This repository provides a logical and efficient solution for such scenarios, and it's backed by more than 20 years of experience in software development. 💻
+Have you ever wondered which person survives in the classic circle game scenario, where 100 people stand in a circle, and one person with a sword initiates the game by killing the next person and passing on the sword? Look no further! This repository provides a logical and efficient solution for such scenarios. 💻
 
 ## The Challenge 🕹️
 
