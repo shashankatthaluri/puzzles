@@ -4,7 +4,7 @@ Welcome to the Puzzle Solving Enthusiast's Repository! 🎉🤓
 
 ## Introduction 📚
 
-Embark on a journey into the captivating world of puzzle solving! As a seasoned storyteller and software developer with over 20 years of experience, let me share with you the passion that drives my love for unraveling mysteries and finding solutions to complex problems.
+Embark on a journey into the captivating world of puzzle solving! As a seasoned storyteller and AI developer, let me share with you the passion that drives my love for unraveling mysteries and finding solutions to complex problems.
 
 ## Why Puzzle Solving? 🤔
 Puzzle solving is not just a hobby; it's a way of thinking, a mindset that thrives on curiosity and the joy of discovery. The satisfaction derived from piecing together the intricate components of a problem and witnessing the elegant solution unfold is truly exhilarating. It's a mental workout, a dance with creativity and logic that keeps the mind sharp and agile.
